@@ -1,13 +1,11 @@
-##Steps to Run
+# JawabuAI Web application
 
-Clone the repository: https://github.com/Vikki7733/JawabuAI.git 
+## Technologies:
+Frontend: React 
+Backend: Express TypeScript
+Database: Firebase
+Authentication: JWT
 
-Goto the workspace and run `npm install` 
-
-cd frontend && npm install && cd .. 
-
-Add the below Firebase config and name it as answersai-b7f2b.firebaseapp.com 
-
-npm run dev (it concurrently runs both frontend and backend) 
-
-Application opens at http://localhost:3000/ 
+## Steps to run the application
+- Run `npm install` in the root folder and in the frontend folder. 
+- To run `npm run dev` to start the application and the application runs on HTTP server that runs on http://localhost:3000. 
