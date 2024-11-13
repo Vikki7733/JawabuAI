@@ -1,0 +1,49 @@
+/* Basic styles for form and card layout */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.form-input {
+  margin-bottom: 10px;
+}
+
+.form-input label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-input input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.h2{
+  font-size: 1.75rem;
+    color: #333;
+    font-weight: bold;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+}

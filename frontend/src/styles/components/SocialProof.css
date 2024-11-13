@@ -1,0 +1,79 @@
+.social-proof h2 {
+    font-size: 2.76rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .media-logo {
+    height: auto;
+    max-width: 250px;
+    max-height: 150px; /* Control the logo size for alignment */
+    margin: 0 15px;
+  }
+  .social-proof .container {
+    padding-left: 1rem; /* Reduce left padding on the container */
+    padding-right: 1rem; /* Reduce right padding */
+}
+  .small {
+    font-size: 1.24rem;
+  }
+  
+  .text-warning {
+    color: #fbbd08; /* Gold color for full stars */
+  }
+  
+  .text-primary {
+    color: #007bff; /* Blue color for TrustPilot stars */
+  }
+  
+  .half-star {
+    clip-path: inset(0 50% 0 0); /* Display half of the star */
+  }
+  
+  .social-proof h2 {
+    font-size: 1.75rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.review-card {
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    margin-right: 1px; /* Add a small margin to separate the cards */
+    margin-left: 10px;
+}
+
+.narrow-card {
+    max-width: 250px; /* Keep cards narrow */
+    margin-right: 1px; /* Small space between cards */
+    margin-left: 0; /* Align closer to the left */
+}
+
+.text-gray-700 {
+    color: #4a5568;
+}
+
+.rounded-xl {
+    border-radius: 1rem;
+}
+
+.text-blue-500 {
+    color: #007bff;
+}
+
+.small-text {
+    font-size: 0.775rem;
+    text-align: justify;
+}
+
+.tiny-text {
+    font-size: 0.75rem;
+}
+
+@media (max-width: 768px) {
+    .row.flex-nowrap {
+        flex-wrap: wrap;
+    }
+}

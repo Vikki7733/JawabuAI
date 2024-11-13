@@ -1,0 +1,132 @@
+/* General Landing Page Setup */
+.landing-page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99vw;
+    height: 105vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section Styling with Gradient and Glow Effects */
+  .section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Top glow effect */
+  .section::before {
+    content: '';
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px;
+    background: rgba(213, 203, 235, 0.3);
+    border-radius: 50%;
+    filter: blur(80px);
+    z-index: 0;
+  }
+  
+  /* Bottom glow effect */
+  .section::after {
+    content: '';
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px;
+    background: rgba(229, 222, 230, 0.4);
+    border-radius: 50%;
+    filter: blur(80px);
+    z-index: 0;
+  }
+  
+  /* Ensuring content stays above background highlights */
+  .section > * {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Individual section backgrounds */
+
+  
+  .category-section {
+    background: linear-gradient(180deg, rgba(189, 220, 236, 0.8), rgba(209, 180, 237, 0.6));
+  }
+  
+  .social-section {
+    background: linear-gradient(180deg, rgba(234, 186, 225, 0.8), rgba(235, 227, 201, 0.8));
+    border-bottom: 1.3px solid #dcdcdc;
+  }
+  
+  .offer-section{
+    background: linear-gradient(180deg, rgba(246, 244, 235, 0.8), rgba(218, 174, 213, 0.81));
+  }
+  
+  /* Responsive Design Adjustments */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 3rem;
+    }
+  
+    .text-main, .text-sub {
+      font-size: 3rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .get-started {
+      padding: 0.5rem 1.5rem;
+      font-size: 1rem;
+    }
+  
+    .logo {
+      font-size: 1.2rem;
+    }
+  
+    .login-button {
+      font-size: 0.8rem;
+    }
+  
+    /* Adjust the buttons further on smaller screens */
+    .auth-buttons {
+      gap: 5px;
+    }
+  
+    .header.sticky .login,
+    .header.sticky .register {
+      font-size: 0.8rem;
+    }
+  }
+  

@@ -1,0 +1,167 @@
+/* Main container styling */
+.register-container {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(228, 246, 221, 0.8), rgba(255, 224, 251, 0.81));
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Left Image Section with Fixed Size and Gradient Transparency */
+  .quote-image-container {
+    position: relative;
+    margin-top: 80px;
+    width: 100%; /* Adjust width as desired */ /* Maximum width to prevent excessive scaling */
+    height: 90vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .error-text{
+    color: red;
+    font-size: 0.85rem;
+    font-weight: lighter;
+  }
+  
+  /* Fixed dimensions for the image */
+  .quote-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers from left to right */
+    opacity: 0.4; /* Reduce opacity to make text more readable */
+    border-radius: 10px;
+  }
+  
+  /* Gradient overlay to add transparency on the right, bottom, and top */
+  .quote-image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6) 10%, /* More transparent at the right */
+      rgba(0, 0, 0, 0.4) 50%, /* Middle fade */
+      rgba(0, 0, 0, 0.1) 90% /* Less transparent at the left */
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) 10%, /* Top transparency */
+      rgba(0, 0, 0, 0.4) 50%, /* Middle fade */
+      rgba(0, 0, 0, 0.1) 90% /* Bottom transparency */
+    );
+  }
+  
+  /* Quote text styling */
+  .quote-text {
+    position: absolute;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 650;
+    max-width: 80%;
+    text-align: center;
+    padding: 0 10px;
+    z-index: 2; /* Ensure the text is above the image and gradient */
+  }
+  
+  /* RegisterCard specific styles for password input */
+  .register-form-container .password-input-wrapper {
+    position: relative;
+  }
+  
+  /* Styling for the password input field */
+  .register-form-container .password-input {
+    font-size: 16px;
+  }
+  
+  /* Styling for the show/hide password icon */
+  .register-form-container .show-password-btn {
+    position: absolute;
+    transform: translateY(-50%);
+    border: none;
+    top: 50%;
+    background: none;
+    right: 10px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  /* Styling the icon */
+  .register-form-container .show-password-btn i {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Right Form Section with Fixed Width */
+  .register-form-container {
+    width: 100%;
+    max-width: 600px;
+    background: #E6E6FA;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .social-login-buttons .social-btn {
+    width: 100%;
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 25px 2px 25px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 0.95rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-row input {
+    width: 48%; /* Adjust width for two inputs in a row */
+  }
+  
+  .submit-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    font-size: 0.9rem;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .toggle-link {
+    font-size: 0.95rem;
+    color: #007bff;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

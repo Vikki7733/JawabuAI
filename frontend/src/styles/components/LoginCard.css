@@ -1,0 +1,88 @@
+/* Login Card Styling */
+.login-card {
+  width: 160%;                /* Ensure it takes up full width of its container */
+  max-width: 900px;           /* Set the maximum width (adjust as necessary) */
+  padding: 45px;
+  padding-top: 40px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;      
+         /* Center it horizontally */
+}
+
+.d-flex .btn {
+  max-width: 400px;  /* Ensure buttons don't exceed this width */
+}
+
+.or-separator {
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+  position: relative;
+}
+
+.or-separator::before,
+.or-separator::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 45%;
+  border-top: 1px solid #888;
+}
+
+.or-separator::before {
+  left: 0;
+}
+
+.or-separator::after {
+  right: 0;
+}
+
+
+
+.input-group {
+  position: relative;
+  width: 100%;
+}
+
+.input-group .form-control {
+  padding-right: 40px;  /* Make space for the icon */
+}
+
+.login-card .form-container {
+  max-width: 500px; /* Set a maximum width */
+  width: 100%; /* Ensure the form takes up the available width but doesn't exceed max-width */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+@media (max-width: 768px) {
+  .login-card .form-container {
+    max-width: 100%; /* Allow form to take up the full width on smaller screens */
+  }
+}
+
+.show-password-btn {
+  position: absolute;
+  transform: translateY(-10%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-link {
+  display: block;
+  text-align: center;
+  width: auto;
+  margin: 0 auto;
+}
+
+.input-group .btn {
+  margin-left: 10px;
+}
+
+.custom-error-message {
+  color: red; /* Make the text red to indicate an error */
+  font-size: 0.9rem; /* Adjust the font size as needed */
+  margin-top: 5px; /* Add a little spacing above */
+}

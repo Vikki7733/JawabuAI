@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                        // Set JavaScript version for compiled code
+    "module": "commonjs",                      // Use commonjs module system
+    "outDir": "./dist",                        // Output compiled JS files here
+    "rootDir": "./",                // The source code folder
+    "esModuleInterop": true,                   // Enable esModuleInterop for better handling of modules
+    "skipLibCheck": true,                      // Skip checking type declarations in node_modules
+    "strict": true,                            // Enable strict type-checking options
+    "forceConsistentCasingInFileNames": true,  // Ensure consistent casing of file names
+    "resolveJsonModule": true                  // Allow importing JSON files
+  },
+  "include": [
+    "backend/src/**/*.ts",                     // Include all TypeScript files in the backend src folder
+    "frontend/**/*.ts",                        // Include all TypeScript files in the frontend folder
+    "redux/**/*.ts",                           // Include all TypeScript files in the redux folder
+    "css/**/*.ts",                             // Include any TypeScript files related to CSS (if applicable)
+    "test/**/*.ts"                             // Include all TypeScript test files
+, "frontend/babel.config.js"  ],
+  "exclude": [
+    "node_modules",                            // Exclude the node_modules folder
+    "dist"                                     // Exclude compiled output folder
+  ]
+}

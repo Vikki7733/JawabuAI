@@ -1,0 +1,273 @@
+[
+  {
+    "id": "Math",
+    "title": "Mathematics",
+    "subcourses": [
+      {
+        "id": "Algebra",
+        "title": "Algebra",
+        "chapters": [
+          {
+            "id": "solving_equations",
+            "title": "Polynomials and Radicals",
+            "chapterDescription": "Learn fundamental operations and manipulations of polynomial expressions, alongside the understanding and simplification of radical expressions, including solving equations involving both types of expressions. Topics may include factoring polynomials, simplifying radicals, rationalizing denominators, and solving radical equations."
+          },
+          {
+            "id": "graphing_equations",
+            "title": "Graphing Equations",
+            "chapterDescription": "Visualize and solve mathematical problems by graphing various functions, including linear equations, inequalities, quadratics, and sometimes more complex functions. You will use a coordinate plane to identify key points like intercepts, slopes, and maximum/minimum values."
+          },
+          {
+            "id": "equations",
+            "title": "Systems of Equations",
+            "chapterDescription": "Explore techniques and strategies to solve systems of equations, including methods like substitution, elimination, and graphical methods. Emphasis on solving both linear and nonlinear systems."
+          }
+        ]
+      },
+      {
+        "id": "Logarithm",
+        "title": "Logarithms and Exponents",
+        "chapters": [
+          {
+            "id": "exponential",
+            "title": "Exponential Functions",
+            "chapterDescription": "Study exponential functions and their properties, including growth and decay models. Learn to solve equations involving exponents and apply them in real-life contexts."
+          },
+          {
+            "id": "roots",
+            "title": "Roots and Radicals",
+            "chapterDescription": "Understand and simplify expressions involving roots, including square roots, cube roots, and higher-order roots. Explore radical equations and how to manipulate them."
+          },
+          {
+            "id": "integration",
+            "title": "Logarithmic Integration",
+            "chapterDescription": "Learn the basics of integrating logarithmic functions, including integration by parts and other techniques involving logarithmic expressions."
+          }
+        ]
+      },
+      {
+        "id": "Geometry",
+        "title": "Geometry",
+        "chapters": [
+          {
+            "id": "shapes_and_angles",
+            "title": "Shapes and Angles",
+            "chapterDescription": "Learn the properties of basic shapes like triangles, circles, and polygons. Study angles, angle relationships, and theorems related to parallel and perpendicular lines."
+          },
+          {
+            "id": "area_and_perimeter",
+            "title": "Area and Perimeter",
+            "chapterDescription": "Explore formulas for calculating the area and perimeter of various geometric shapes, including rectangles, circles, and more complex polygons."
+          },
+          {
+            "id": "trigonometry",
+            "title": "Trigonometry",
+            "chapterDescription": "Study the relationships between the sides and angles of right-angled triangles. Learn about sine, cosine, and tangent, and apply them to solve real-world problems."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Science",
+    "title": "Science",
+    "subcourses": [
+      {
+        "id": "Physics",
+        "title": "Physics",
+        "chapters": [
+          {
+            "id": "force",
+            "title": "Forces and Newton's Laws",
+            "chapterDescription": "Learn about the different types of forces (gravitational, frictional, etc.), and how they affect the motion of objects. Study Newton's laws of motion and their applications."
+          },
+          {
+            "id": "motion",
+            "title": "Motion and Kinematics",
+            "chapterDescription": "Understand the concepts of displacement, velocity, acceleration, and time. Study the equations of motion and analyze the behavior of objects under different conditions."
+          },
+          {
+            "id": "structure_of_atoms",
+            "title": "Structure of Atoms",
+            "chapterDescription": "Explore the atomic structure, including protons, neutrons, and electrons. Study atomic models and the periodic table."
+          }
+        ]
+      },
+      {
+        "id": "Chemistry",
+        "title": "Chemistry",
+        "chapters": [
+          {
+            "id": "organic_chemistry",
+            "title": "Organic Chemistry",
+            "chapterDescription": "Learn about the structure, properties, and reactions of organic compounds, especially hydrocarbons, alcohols, and other functional groups."
+          },
+          {
+            "id": "inorganic_chemistry",
+            "title": "Inorganic Chemistry",
+            "chapterDescription": "Study the behavior of inorganic compounds, including metals, minerals, and acids. Learn about atomic structure and bonding in non-organic substances."
+          },
+          {
+            "id": "general_chemistry",
+            "title": "General Chemistry",
+            "chapterDescription": "Cover fundamental concepts such as atomic structure, chemical bonding, stoichiometry, thermodynamics, and chemical reactions."
+          }
+        ]
+      },
+      {
+        "id": "Biology",
+        "title": "Biology",
+        "chapters": [
+          {
+            "id": "micro_biology",
+            "title": "Microbiology",
+            "chapterDescription": "Learn about microorganisms such as bacteria, viruses, fungi, and protozoa, and their roles in health, disease, and the environment."
+          },
+          {
+            "id": "molecular_biology",
+            "title": "Molecular Biology",
+            "chapterDescription": "Study the molecular mechanisms of life, including DNA, RNA, protein synthesis, and gene regulation."
+          },
+          {
+            "id": "human_anatomy",
+            "title": "Human Anatomy",
+            "chapterDescription": "Explore the structure and function of the human body, focusing on major systems like the circulatory, digestive, and nervous systems."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Computer_Science",
+    "title": "Computer Science",
+    "subcourses": [
+      {
+        "id": "Programming",
+        "title": "Programming",
+        "chapters": [
+          {
+            "id": "intro_to_programming",
+            "title": "Introduction to Programming",
+            "chapterDescription": "Learn the basics of programming, including variables, loops, conditionals, and functions using a high-level language like Python or Java."
+          },
+          {
+            "id": "data_structures",
+            "title": "Data Structures",
+            "chapterDescription": "Study the different ways to organize and store data, such as arrays, linked lists, stacks, queues, and trees."
+          },
+          {
+            "id": "algorithms",
+            "title": "Algorithms",
+            "chapterDescription": "Understand the design and analysis of algorithms for solving computational problems efficiently, including searching, sorting, and graph algorithms."
+          }
+        ]
+      },
+      {
+        "id": "Networking",
+        "title": "Networking",
+        "chapters": [
+          {
+            "id": "networking_basics",
+            "title": "Networking Basics",
+            "chapterDescription": "Learn about the OSI model, IP addressing, and protocols like TCP/IP, DNS, and HTTP, which form the foundation of computer networks."
+          },
+          {
+            "id": "network_security",
+            "title": "Network Security",
+            "chapterDescription": "Explore the principles of securing computer networks, including firewalls, encryption, and intrusion detection systems."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Arts",
+    "title": "Arts",
+    "subcourses": [
+      {
+        "id": "Visual_Arts",
+        "title": "Visual Arts",
+        "chapters": [
+          {
+            "id": "drawing",
+            "title": "Drawing Techniques",
+            "chapterDescription": "Learn the basic techniques for drawing, including shading, perspective, and proportion. Study various drawing materials and methods."
+          },
+          {
+            "id": "painting",
+            "title": "Painting Techniques",
+            "chapterDescription": "Study the art of painting using different mediums such as oil, acrylics, and watercolors. Learn about color theory, composition, and brushwork."
+          },
+          {
+            "id": "digital_art",
+            "title": "Digital Art",
+            "chapterDescription": "Explore the world of digital art, including graphic design, photo manipulation, and animation using various software tools."
+          }
+        ]
+      },
+      {
+        "id": "Music",
+        "title": "Music",
+        "chapters": [
+          {
+            "id": "music_theory",
+            "title": "Music Theory",
+            "chapterDescription": "Learn the fundamentals of music, including notes, scales, rhythms, and harmonies. Study how these elements come together to create musical compositions."
+          },
+          {
+            "id": "history_of_music",
+            "title": "History of Music",
+            "chapterDescription": "Explore the evolution of music through different eras, from Classical to Contemporary, and understand the cultural influences on musical movements."
+          },
+          {
+            "id": "composition_and_arranging",
+            "title": "Composition and Arranging",
+            "chapterDescription": "Learn the techniques behind composing and arranging music for different ensembles. Study the principles of orchestration and song structure."
+          }
+        ]
+      },
+      {
+        "id": "Photography",
+        "title": "Photography",
+        "chapters": [
+          {
+            "id": "photography_basics",
+            "title": "Photography Basics",
+            "chapterDescription": "Understand the basic principles of photography, including camera functions, exposure, and lighting techniques."
+          },
+          {
+            "id": "composition_and_design",
+            "title": "Composition and Design",
+            "chapterDescription": "Learn about the principles of visual composition, including framing, rule of thirds, and depth of field. Study how design elements enhance the photographic message."
+          },
+          {
+            "id": "post_processing",
+            "title": "Post-Processing",
+            "chapterDescription": "Explore photo editing and post-processing techniques using software like Adobe Photoshop and Lightroom to enhance and manipulate images."
+          }
+        ]
+      },
+      {
+        "id": "Cinema_Writing",
+        "title": "Cinema Writing",
+        "chapters": [
+          {
+            "id": "screenwriting_basics",
+            "title": "Screenwriting Basics",
+            "chapterDescription": "Learn the fundamentals of writing for film, including screenplay format, structure, and pacing."
+          },
+          {
+            "id": "dialogue_and_character",
+            "title": "Dialogue and Character Development",
+            "chapterDescription": "Study the importance of character development and crafting compelling dialogue that enhances the narrative."
+          },
+          {
+            "id": "storytelling_and_plot",
+            "title": "Storytelling and Plot Development",
+            "chapterDescription": "Learn how to create engaging stories with strong plots, conflicts, and resolutions that captivate the audience."
+          }
+        ]
+      }
+    ]
+  }
+]
